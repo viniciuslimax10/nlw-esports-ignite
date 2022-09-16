@@ -18,7 +18,7 @@ export interface DuoCardProps{
 
 interface Props{
     data:DuoCardProps;
-    onConnect:() =>void;
+    onConnect:() => void;
 }
 
 
