@@ -10,6 +10,8 @@
   <a href="#-como-executar">Como executar</a>
 </p>
 
+<a id="-tecnologias-utilizadas"></a>
+
 ##  Tecnologias utilizadas
 
 
@@ -31,21 +33,29 @@
   <img src="https://img.shields.io/badge/ts--node--dev-3178C6?style=for-the-badge&logo=ts-node-dev&logoColor=white"/>
 </p>
 
+<a id="-resultado-aplicação-web"></a>
+
 ##  Resultado Aplicação WEB
 
 ![nlwfinal](https://user-images.githubusercontent.com/14236141/190879022-d435aca1-6ffa-45a7-a012-f27661f88a32.png)
 
 
+<a id="-resultado-aplicação-mobile"></a>
 
 ## Resultado Aplicação Mobile
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/14236141/190879936-2301032c-baf1-4c0e-b477-c4959b741c28.jpg" width="150px"/>
+  <img src="https://user-images.githubusercontent.com/14236141/190879937-65348d24-432c-46d7-ac7d-76d8025f8095.jpg" width="150px"/>
+  <img src="https://user-images.githubusercontent.com/14236141/190879891-ab8b7a1e-0bf6-471c-977f-d2dfe8bb704f.jpg" width="150px"/>
+  <img src="https://user-images.githubusercontent.com/14236141/190879933-c9d2bff0-8201-421a-acce-75c83594d6a9.jpg" width="150px"/>
+  
+  
+</p>
 <p align="center">
 
-![Screenshot_2022-09-17-20-30-35-134_host exp exponent](https://user-images.githubusercontent.com/14236141/190879891-ab8b7a1e-0bf6-471c-977f-d2dfe8bb704f.jpg)
-![Screenshot_2022-09-17-20-30-43-622_host exp exponent](https://user-images.githubusercontent.com/14236141/190879933-c9d2bff0-8201-421a-acce-75c83594d6a9.jpg)
-![Screenshot_2022-09-17-20-15-56-541_host exp exponent](https://user-images.githubusercontent.com/14236141/190879936-2301032c-baf1-4c0e-b477-c4959b741c28.jpg)
-![Screenshot_2022-09-17-20-30-31-797_host exp exponent](https://user-images.githubusercontent.com/14236141/190879937-65348d24-432c-46d7-ac7d-76d8025f8095.jpg)
-</p>
- 
+
+<a id="-como-executar"></a>
 
 ## Como executar
 
@@ -60,6 +70,10 @@ Para executar as aplicações seguir os procedimentos abaixo:
 ```bash
 cd server
 ```
+- Instalar as dependências do backend
+```bash
+npm install
+```
 - Iniciar o backend com o comando
 ```bash
 npm run dev
@@ -72,6 +86,10 @@ Com o backend rodando você pode escolher entre a aplicação WEB ou MOBILE
 - Acessar primeiro o diretório web com o comando
 ```bash
 cd web
+```
+- Instalar as dependências da aplicação WEB
+```bash
+npm install
 ```
 - Iniciar a aplicação web com o comando
 ```bash
@@ -86,6 +104,10 @@ cd mobile
 ```
 - Alterar os endereços de IP na pasta SCREENS nos componetes GAME e HOME. Insearir o IP da sua máquina Arquivos index.ts desses 2 componentes.
 
+- Instalar as dependências da aplicação MOBILE
+```bash
+npm install
+```
 - Iniciar a aplicação web com o comando
 ```bash
 expo start
